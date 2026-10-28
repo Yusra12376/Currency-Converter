@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#currency{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4e4ba;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+ 
+}
+#container{
+height:75vh;
+width:33vw;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+border-radius: 1rem;
+}
+h1{
+    font-size: 2rem;
+     margin-top: 2rem; 
+}
+form{
+    height:60vh;
+    width:25vw;
+    margin-top: 2rem;
+}
+label, p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#amount{
+    height:10vh;
+    width:25vw;
+}
+input{
+    height: 7vh;
+    width:25vw;
+    border:1px solid lightgrey;
+    border-radius: 0.5rem ;
+}
+ #center{       /*<div id= from >  <div id= to > */
+   height:20vh;
+    width:25vw; 
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.select{
+height: 8vh ;
+width:10vw;
+/* background-color: aqua; */
+border:1px solid lightgrey;
+ border-radius: 0.5rem ;
+
+
+}
+img{
+    width:2rem;
+    margin-top:0.6rem;
+
+}
+select{
+    height: 8vh;
+    width: 4.4vw;
+    border:none;
+    border-radius: 0.5rem ;
+       margin-left: 1rem; 
+      margin-bottom: 17vh; 
+}
+option{
+    background-color:  rgb(72, 66, 66);
+    color:#fff;
+}
+#last{
+ font-weight: 550;   
+}
+#btn{
+    margin-top: 6vh;
+    height: 6.5vh;
+    width: 25vw;
+    background-color: #af4d98;
+    border-radius: 0.5rem;
+    color:#fff;
+    font-size: 1.15rem;
+    cursor:pointer;
+}
+
+
